@@ -16,8 +16,6 @@ namespace DigitalGauge_Sample
         public MainPage()
         {
             InitializeComponent();
-            var characterCount = digitalGauge.Value.Length;
-            digitalGauge.WidthRequest = ((characterCount + 1) * digitalGauge.CharacterWidth) + (characterCount * digitalGauge.CharacterSpacing);
         }
     }
 }

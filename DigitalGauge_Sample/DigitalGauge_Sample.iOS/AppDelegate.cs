@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Syncfusion.SfGauge.XForms.iOS;
 using UIKit;
 
 namespace DigitalGauge_Sample.iOS
@@ -23,7 +24,7 @@ namespace DigitalGauge_Sample.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-			Syncfusion.SfGauge.XForms.iOS.SfGaugeRenderer.Init();
+            SfGaugeRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

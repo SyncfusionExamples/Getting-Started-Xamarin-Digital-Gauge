@@ -6,13 +6,13 @@
              mc:Ignorable="d"
              xmlns:gauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms"  
              x:Class="DigitalGauge_Sample.MainPage">
-    <gauge:SfDigitalGauge  BackgroundColor="LightGray"  x:Name="digitalGauge"
-                    Value="11:59:50"  
-                    HorizontalOptions="Center" 
-                    CharacterHeight="80" 
-                     CharacterWidth="25"
-                    VerticalOptions="Center"
-                    CharacterType="EightCrossEightDotMatrix"
-                    CharacterStrokeColor="DarkGray"
-                    HeightRequest="80"/>
+
+     <gauge:SfDigitalGauge Value="11:59:50 PM" SegmentStrokeWidth="5" 
+                           HeightRequest="100"  WidthRequest="375"
+                           DisabledSegmentAlpha="25" DisabledSegmentColor="Gray"
+                           CharacterHeight="90" CharacterWidth="25" 
+                           HorizontalOptions="Center" VerticalOptions="Center"
+                           CharacterType="EightCrossEightDotMatrix" 
+                           CharacterStrokeColor="#146CED"/>
+
 </ContentPage>
