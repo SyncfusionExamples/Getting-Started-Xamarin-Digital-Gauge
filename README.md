@@ -1,6 +1,6 @@
 # Getting Started Xamarin Digital Gauge
 
-This repository contains sample for how to get started with the [Syncfusion Xamarin.Forms Digital Gauge](https://help.syncfusion.com/xamarin/digital-gauge/getting-started) control. The digital gauge control is used to display alphanumeric characters in digital (LED display) mode. This control displays a range of values that uses character in combination with numbers.
+This repository contains sample to get started with the [Syncfusion Xamarin.Forms Digital Gauge](https://help.syncfusion.com/xamarin/digital-gauge/getting-started) control. The digital gauge control is used to display alphanumeric characters in digital (LED display) mode. This control displays a range of values that uses character in combination with numbers.
 
 ## Syncfusion controls:
 
